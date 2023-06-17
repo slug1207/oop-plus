@@ -8,19 +8,20 @@ int main()
 	bool a=true; 
 	
 	cin>>input;
-	for(int i=input.length()-1;i>=0;i--)//將字串逆序傳到output 
+	for(int i=input.length()-1;i>=0;i--)//將字串倒轉 
 	{
 		output[input.length()-1-i]=input[i];
 	}
-	for(int j=0;j<input.length();j++)//比較是否有異 
+	for(int j=0;j<input.length();j++) 
 	{
 		if(input[j]!=output[j]){
-            a=false;break;
-        }//發現有異即時跳出 
+            		a=false;
+			break;
+        	} 
 		else a=true;
 	}
 	if(a){
-        cout<<"YES"<<endl;//輸出結果 
+        cout<<"YES"<<endl; 
     }
     else cout<<"NO"<<endl;
 	return 0;
