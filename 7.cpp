@@ -10,7 +10,6 @@ int main()
 	{
 		int a=0,b=0,c=0,d=0;
 		char w; 
-		
 		cin>>w>>a>>b>>c>>d;
 		switch(w) 
 		{ 
