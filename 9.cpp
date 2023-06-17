@@ -6,12 +6,12 @@ int main()
 	int input=0,i,sum=0;
 	
 	cin>>input;
-	for(i=1;i<=input;i++)//找出最近的3的倍數 
+	for(i=1;i<=input;i++) 
 	{
     	if(i%3==0){
             sum+=i;
         } 
 	}
-	cout<<sum<<endl;//得到總和(等差級數和公式) 
+	cout<<sum<<endl; 
 	return 0;
 } 
