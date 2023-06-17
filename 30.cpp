@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	string in;//因輸入的月有"0"在，故改字串 
+	string in; 
 	getline(cin,in);
 	int m=10*((int)in[0]-'0')+((int)in[1]-'0');//月轉數字 
 	int d=10*((int)in[3]-'0')+((int)in[4]-'0');//日轉數字
